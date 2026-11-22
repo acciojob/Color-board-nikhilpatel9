@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.container{
+	display:grid;
+	grid-template-columns:repeat(auto-fill, minmax(20px, 1fr));
+    gap: 2px;
+	background-color:brown;
+    padding: 1px;
+	
+}
+.square{
+	background-color:black;
+	background-color:back;
+	width:20px;
+	height:20px;
+}
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #1a1a2e;
+    transition: background-color 0.3s ease;
+  }
+
+  .square.active {
+    background-color: #00e5ff;
+    transition: background-color 0.1s ease;
+  }
